@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#game-screen {
+  display: block;
+}
+
+#gameOver, #playHUD {
+  position: absolute;
+  visibility: hidden;
+}
+
+#playHUD {
+  font-size: 31px;
+}
+
+.title {
+  font-size: 62px;
+}
+
+h1, h2, h3 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-size: 31px;
+}
+
+#restartButton {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+#restartButton:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+#scoreboard {
+
+}
