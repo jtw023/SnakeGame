@@ -3,42 +3,51 @@
   padding: 0px;
 }
 
+/* green background */
 #game-screen {
   display: block;
 }
 
-#gameOver, #playHUD {
+/* hide scoreboard */
+#gameOver,
+#playHUD {
   position: absolute;
   visibility: hidden;
 }
 
+/* scoreboard sizing */
 #playHUD {
   font-size: 31px;
 }
 
+/* game over font */
 .title {
   font-size: 62px;
 }
 
-h1, h2, h3 {
-  font-family: 'Permanent Marker', cursive;
+/* font type and alignment */
+h1,
+h2,
+h3 {
+  font-family: "Permanent Marker", cursive;
   text-align: center;
 }
 
+/* new game button font size */
 h3 {
   font-size: 31px;
 }
 
+/* restart button stylings */
 #restartButton {
   border: 2px solid black;
   border-radius: 50px;
+  background-color: white;
+  opacity: 0.5;
 }
 
 #restartButton:hover {
   background-color: white;
   cursor: pointer;
-}
-
-#scoreboard {
-
+  opacity: 1;
 }
